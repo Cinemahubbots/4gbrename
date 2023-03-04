@@ -45,7 +45,7 @@ async def help(bot, msg):
 @Client.on_callback_query(filters.regex("about"))
 async def about(bot, msg):
     me=await bot.get_me()
-    Master=f"<a href=https://t.me/Mo_Tech_YT>MoTech</a> & <a href=https://t.me/MOVIE_BOTX>MhdRzn</a>"  
+    Master=f"<a href=https://t.me/logan_of_tg>LOGAN</a> & <a href=https://t.me/MOVIE_BOTX>MhdRzn</a>"  
     Source="<a href=https://t.me/MOVIE_BOTX>Click Here</a>"
     txt=f"<b>Bot Name: {me.mention}\nDeveloper: <a href=https://t.me/logan_of_tg>LOGAN</a>\nBot Updates: <a href=https://t.me/MOVIE_BOTX>Mᴋɴ Bᴏᴛᴢ™</a>\nMy Master's: {Master}\nSource Code: {Source}</b>"                 
     button= [[        
